@@ -7,7 +7,7 @@ export const 발행기관 = (obj) => {
   return new Proxy(obj, handler);
 };
 
-const handler = {
+export const handler = {
   message: undefined,
   subscription: {},
 
